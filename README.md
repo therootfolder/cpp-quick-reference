@@ -462,6 +462,9 @@ string str5('x', 10);
 
 // defines a string which is initialized with a substring of str5.
 string str6(str5, 2, 8);
+
+//find the first position of the last occurence of searchstr in str6
+size_t found = str6.rfind(searchstr);
 ```
 
 #### `string` operators
