@@ -462,6 +462,7 @@ string str5('x', 10);
 
 // defines a string which is initialized with a substring of str5.
 string str6(str5, 2, 8);
+//this means str6 is sub-string of str5 starting from the index 2 through 8 elements.
 ```
 
 #### `string` operators
